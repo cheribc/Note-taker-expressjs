@@ -11,7 +11,7 @@ The application will be deployed to Heroku.
 
 ![Demo-mockup page 1](Images/11-express-homework-demo-01.png)
 
-![](Images/11-express-homework-demo-02.png)
+![Demo-mockup page 2](Images/11-express-homework-demo-02.png)
 
 
 ---
@@ -28,6 +28,11 @@ The application will be deployed to Heroku.
  ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB) 
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?logo=heroku&logoColor=wheat)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?logo=npm&logoColor=wheat)
+
+---
+[Deployed App in Heroku](https://expressjs-notes.herokuapp.com/)
+
+[GitHub project repository](https://github.com/cheribc/Note-taker-expressjs)
 
 ---
 

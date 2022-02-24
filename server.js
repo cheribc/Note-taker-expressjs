@@ -8,8 +8,8 @@ const htmlroutes = require('./routes/htmlroutes');
 // Express app
 const app = express();
 
-// Initial Port set up
-const PORT = process.env.PORT || 3001;
+// PORT environment variable
+const PORT = process.env.PORT || 8000;
 
 // Middleware for parsing JSON and Urlencoded form data
 app.use(express.json());
