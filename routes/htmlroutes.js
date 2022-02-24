@@ -1,16 +1,15 @@
-const path = require("path");
+const path = require('path');
 
-module.exports = function(app) {
-    
-    app.get("/", function(req, res) {
-        res.sendFile(path.join(__dirname, "/../public/index.html"));
-    });
-    
-    app.get("/notes", function(req, res) {
-        res.sendFile(path.join(__dirname, "/../public/notes.html"));
-    });
+const router = require('express').Router();
 
-    
+// Send notes to note.html file
+router.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/notes.html'))
+});
 
+// Route to homepage with default for path issues
+router.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'))
+});
 
-}
+module.exports = router;
