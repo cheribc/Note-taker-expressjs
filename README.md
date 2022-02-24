@@ -2,16 +2,16 @@
 
 ## __Description__
 
-This application is an assignment to modify starter code and create a note-taker to be used to write and save notes with Express.js used in Node.js.
+This application is an assignment to modify starter code and create a note-taker to be used to write and save notes with Express.js and retrieve note data from a JSON file.
 
-Users will be able to add and save new notes, or view existing notes, as a productivity tool to organize and track tasks.
+The user can open the app, and see a landing page and links to a note page, click on the `+` sign in the upper right corner of the landing age to create a new note and save the new note by clicking on the `save` icon in the upper right corner.
 
 The application will be deployed to Heroku.
 
 
-![Demo-mockup page 1](Images/11-express-homework-demo-01.png)
+![Note-App-Screenshot 1](Images/note-screenshot1.png)
 
-![Demo-mockup page 2](Images/11-express-homework-demo-02.png)
+![Note-App-Screenshot 2](Images/note-screenshot2.png)
 
 
 ---
