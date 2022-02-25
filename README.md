@@ -4,12 +4,20 @@
 
 This application is an assignment to modify starter code and create a note-taker to be used to write and save notes with Express.js and retrieve note data from a JSON file.
 
-The user can open the app, and see a landing page and links to a note page, click on the `+` sign in the upper right corner of the landing age to create a new note and save the new note by clicking on the `save` icon in the upper right corner.
+---
 
-The application will be deployed to Heroku.
+### __How To Use:__
+The user can open the app by clicking on [this link to the deployed application on Heroku](https://expressjs-notes.herokuapp.com/), and see a landing page and links to a note page, click on the `+` sign in the upper right corner of the landing age to create a new note and save the new note by clicking on the `save` icon in the upper right corner.
+
+Users can also delete notes by clicking on the `red trashcan` icon located on the left side of the `Notes` page beside each individual note.
+
+---
 
 
 ![Note-App-Screenshot 1](Images/note-screenshot1.png)
+
+---
+
 
 ![Note-App-Screenshot 2](Images/note-screenshot2.png)
 
