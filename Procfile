@@ -1,1 +1,1 @@
-<process type>: web: npm start .
+web: npm run my-custom-start
